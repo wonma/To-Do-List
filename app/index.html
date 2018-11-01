@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To Do List</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>TO DO List<span class="copyright">by Wonmi / Second Building</span>.</h1>
+	
+	<div class="container">
+		
+		<div class="notice">
+			<p>Type To-do and enter! (or click) If you're done with the list, just click on the list. :) </p>
+		</div>
+	
+		<div class="todoBox">
+			<form class="todoBox__form" onSubmit="return false;">
+				<input id="todoBox__input" class="todoBox__input" type="text" name="todoInput" placeholder="Type what you want to do">
+				<button id="todoBox__btn" class="todoBox__btn" type="button">ADD +</button>
+			</form>
+			<ul class="todoBox__list" id="todoBox__list">
+				<h2>I want to...</h2>
+			</ul>
+		</div>
+	
+	</div>
+
+	<script type="text/javascript" src="scripts/script.js"></script>
+
+</body>
+</html>
