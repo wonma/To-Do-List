@@ -191,10 +191,11 @@ button {
 }
 
 .is-clicked .todoBox__list-item-text::after {
-	content:"";
+	content:"DONE!";
     position: absolute;
     width: 100%;
-    border-top: 1px solid red;
+	border-top: 1px solid red;
+	color: #FBF6F4;
     left: 0;
     top: 50%;
 }
